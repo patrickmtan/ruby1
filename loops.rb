@@ -17,7 +17,7 @@ until num % 2 == 0
     num = gets.chomp.to_i
 end
 print "The even number is #{num}"
-
+puts
 #.. is inclusive with the last number
 # ... is non exclusive with the last number
 
