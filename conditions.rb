@@ -14,3 +14,13 @@ else
 end
 # for conditions have an end at the end
 puts "You earned a #{grade}"
+
+hungry = false
+unless hungry
+    puts "write code"
+else
+    puts "eat something"
+end
+
+puts "Winter" if hungry
+puts "Write code" unless hungry
