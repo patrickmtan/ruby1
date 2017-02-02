@@ -1,7 +1,7 @@
 print "Enter your name: "
 name = gets.chomp
 puts "Hello " + name
-# could also do puts "Hello" << name
+# could also do puts "Hello" << name or Hello {name} name
 
 # for conversion 
 print "How many cups: "
